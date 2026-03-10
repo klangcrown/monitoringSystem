@@ -1,0 +1,9 @@
+﻿*.pt
+*.task
+*.pkl
+*.whl
+outputs/
+database/photos/
+venv/
+__pycache__/
+*.pyc

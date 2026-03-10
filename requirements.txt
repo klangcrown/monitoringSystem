@@ -1,0 +1,19 @@
+# ── Основные зависимости ──────────────────────────────────────────────────────
+ultralytics>=8.0.0
+numpy==1.26.4
+opencv-python>=4.8.0
+onnxruntime>=1.16.0
+
+# ── Streamlit интерфейс ───────────────────────────────────────────────────────
+streamlit>=1.40.0
+Pillow>=10.0.0
+
+# ── Детекция сна (MediaPipe) ──────────────────────────────────────────────────
+mediapipe==0.10.9
+
+# ── Распознавание лиц ─────────────────────────────────────────────────────────
+# Windows (Python 3.11) — установить вручную:
+#   pip install https://github.com/z-mahmud22/Dlib_Windows_Python3.x/raw/main/dlib-19.24.1-cp311-cp311-win_amd64.whl
+# macOS — установить через Homebrew:
+#   brew install cmake dlib && pip install dlib
+face_recognition>=1.3.0
